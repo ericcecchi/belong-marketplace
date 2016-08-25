@@ -8,4 +8,5 @@ public/content/uploads
 public/content/upgrade
 public/content/plugins/json-rest-api
 public/content/plugins/s3-uploads
+public/content/themes/underscores
 /vendor/
