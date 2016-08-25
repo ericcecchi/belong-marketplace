@@ -120,6 +120,13 @@ define("WPLANG", "");
 define( "AWS_ACCESS_KEY_ID", getenv("AWS_ACCESS_KEY_ID") );
 define( "AWS_SECRET_ACCESS_KEY", getenv("AWS_SECRET_ACCESS_KEY") );
 
+/**
+ * S3 Uploads Keys
+ */
+define( 'S3_UPLOADS_BUCKET', getenv('S3_UPLOADS_BUCKET') );
+define( 'S3_UPLOADS_KEY', getenv('S3_UPLOADS_KEY') );
+define( 'S3_UPLOADS_SECRET', getenv('S3_UPLOADS_SECRET') );
+
 /* That"s all, stop editing! Happy blogging. */
 
 define( "WP_CONTENT_DIR", $_SERVER['DOCUMENT_ROOT'] . "/content" );

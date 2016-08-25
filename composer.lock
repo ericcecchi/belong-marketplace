@@ -1,10 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5a09a3b2078521129a96c83b498e34f3",
+    "hash": "bb0688c9981a13ea975cd8833cd8ef2f",
+    "content-hash": "86065c56e902e04bb15d581ffdd94b94",
     "packages": [
         {
             "name": "fancyguy/webroot-installer",
@@ -50,10 +51,10 @@
         },
         {
             "name": "wordpress",
-            "version": "4.1.1",
+            "version": "4.6",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.1.1.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -70,12 +71,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "aea81319f561cf2eb581736b9b30e7a81c48363b"
+                "reference": "cd2d13992b72d049aa270d4b745aae6329e0c037"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/aea81319f561cf2eb581736b9b30e7a81c48363b",
-                "reference": "aea81319f561cf2eb581736b9b30e7a81c48363b",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/cd2d13992b72d049aa270d4b745aae6329e0c037",
+                "reference": "cd2d13992b72d049aa270d4b745aae6329e0c037",
                 "shasum": ""
             },
             "bin": [
@@ -96,7 +97,7 @@
                 }
             ],
             "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP/HHVM and Apache2/Nginx as on Heroku",
-            "homepage": "http://github.com/heroku/heroku-buildpack-php",
+            "homepage": "https://github.com/heroku/heroku-buildpack-php",
             "keywords": [
                 "apache",
                 "apache2",
@@ -106,7 +107,7 @@
                 "nginx",
                 "php"
             ],
-            "time": "2015-02-19 09:59:04"
+            "time": "2016-07-21 11:26:05"
         }
     ],
     "aliases": [],
@@ -117,7 +118,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.3.0"
+        "php": ">=5.5.0"
     },
     "platform-dev": []
 }
