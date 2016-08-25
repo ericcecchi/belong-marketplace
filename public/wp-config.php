@@ -120,6 +120,7 @@ define("WPLANG", "");
 define( 'S3_UPLOADS_BUCKET', getenv('S3_UPLOADS_BUCKET') );
 define( 'S3_UPLOADS_KEY', getenv('S3_UPLOADS_KEY') );
 define( 'S3_UPLOADS_SECRET', getenv('S3_UPLOADS_SECRET') );
+define( 'S3_UPLOADS_REGION', getenv('S3_UPLOADS_REGION') );
 
 /* That"s all, stop editing! Happy blogging. */
 
