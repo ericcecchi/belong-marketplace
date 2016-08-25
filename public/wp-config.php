@@ -115,12 +115,6 @@ $table_prefix  = "wp_";
 define("WPLANG", "");
 
 /**
- * AWS Plugin Auth Keys
- */
-define( "AWS_ACCESS_KEY_ID", getenv("AWS_ACCESS_KEY_ID") );
-define( "AWS_SECRET_ACCESS_KEY", getenv("AWS_SECRET_ACCESS_KEY") );
-
-/**
  * S3 Uploads Keys
  */
 define( 'S3_UPLOADS_BUCKET', getenv('S3_UPLOADS_BUCKET') );
