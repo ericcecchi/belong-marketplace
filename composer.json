@@ -23,7 +23,9 @@
   "require": {
     "php": ">=5.5.0",
     "wordpress": "4.6",
-    "fancyguy/webroot-installer": "1.0.0"
+    "fancyguy/webroot-installer": "1.0.0",
+    "wp-api/wp-api": "2.0-beta13",
+    "humanmade/s3-uploads": "v2.0.0-beta2"
   },
   "extra": {
     "webroot-dir": "public/wp",

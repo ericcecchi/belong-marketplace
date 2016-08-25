@@ -4,9 +4,111 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bb0688c9981a13ea975cd8833cd8ef2f",
-    "content-hash": "86065c56e902e04bb15d581ffdd94b94",
+    "hash": "e2780b563f420d8bfb004f21cbebc97a",
+    "content-hash": "a3824e3fdaf94c23339a94c9e22d4650",
     "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "a3595c5272a6f247228abb20076ed27321e4aae9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/a3595c5272a6f247228abb20076ed27321e4aae9",
+                "reference": "a3595c5272a6f247228abb20076ed27321e4aae9",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "ImageCMS",
+                "MODX Evo",
+                "Mautic",
+                "OXID",
+                "RadPHP",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "zend",
+                "zikula"
+            ],
+            "time": "2016-07-05 06:18:20"
+        },
         {
             "name": "fancyguy/webroot-installer",
             "version": "1.0.0",
@@ -50,6 +152,42 @@
             "time": "2013-01-29 22:51:45"
         },
         {
+            "name": "humanmade/s3-uploads",
+            "version": "v2.0.0-beta2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/S3-Uploads.git",
+                "reference": "cde95df1abbeea049f79ca6db80b385986ca1a0b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/cde95df1abbeea049f79ca6db80b385986ca1a0b",
+                "reference": "cde95df1abbeea049f79ca6db80b385986ca1a0b",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made Limited",
+                    "email": "support@humanmade.co.uk",
+                    "homepage": "http://hmn.md/"
+                }
+            ],
+            "description": "WordPress plugin to store uploads on S3",
+            "homepage": "https://github.com/humanmade/S3-Uploads",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2016-08-09 11:31:04"
+        },
+        {
             "name": "wordpress",
             "version": "4.6",
             "dist": {
@@ -62,6 +200,45 @@
                 "fancyguy/webroot-installer": "1.0.0"
             },
             "type": "webroot"
+        },
+        {
+            "name": "wp-api/wp-api",
+            "version": "2.0-beta13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WP-API/WP-API.git",
+                "reference": "d0a392c3397960f81cf0bff0db239814c12aa228"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WP-API/WP-API/zipball/d0a392c3397960f81cf0bff0db239814c12aa228",
+                "reference": "d0a392c3397960f81cf0bff0db239814c12aa228",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "2.3.4",
+                "wp-coding-standards/wpcs": "0.6.0"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "installer-name": "json-rest-api"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL2+"
+            ],
+            "authors": [
+                {
+                    "name": "WP-API Team",
+                    "homepage": "http://wp-api.org/"
+                }
+            ],
+            "description": "Access your WordPress site's data through an easy-to-use HTTP REST API.",
+            "homepage": "http://wp-api.org/",
+            "time": "2016-03-30 00:04:19"
         }
     ],
     "packages-dev": [
@@ -113,6 +290,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "wp-api/wp-api": 10,
+        "humanmade/s3-uploads": 10,
         "heroku/heroku-buildpack-php": 20
     },
     "prefer-stable": false,
