@@ -1,17 +1,25 @@
 {
-  "name": "WordPress Heroku PHP",
-  "description": "Template for deploying WordPress to Heroku",
-  "repository": "https://github.com/ellefsen/wordpress-heroku-php",
+  "name": "Headless WordPress Heroku",
+  "description": "Template to run an API-enabled WordPress on Heroku",
+  "repository": "https://github.com/ericcecchi/headless-wordpress-heroku",
   "success_url": "/",
   "env": {
     "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-php",
-    "AWS_ACCESS_KEY_ID": {
-      "description": "The Amazon Access Key.",
+    "S3_UPLOADS_KEY": {
+      "description": "Access Key with S3 permissions.",
       "value": "123"
     },
-    "AWS_SECRET_ACCESS_KEY": {
-      "description": "The Amazon Secret Access Key.",
+    "S3_UPLOADS_SECRET": {
+      "description": "Secret Key with S3 permissions.",
       "value": "123"
+    },
+    "S3_UPLOADS_BUCKET": {
+      "description": "Name of the bucket to save Wordpress uploads.",
+      "value": "bucket-name"
+    },
+    "S3_UPLOADS_REGION": {
+      "description": "S3 region where the bucket is located.",
+      "value": "us-standard"
     },
     "DISABLE_WP_CRON": {
       "description": "Disable WordPress internal cron-job.",

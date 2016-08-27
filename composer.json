@@ -41,7 +41,8 @@
     "underscores": "1.0.0",
     "fancyguy/webroot-installer": "1.0.0",
     "wp-api/wp-api": "2.0-beta13",
-    "humanmade/s3-uploads": "v2.0.0-beta2"
+    "humanmade/s3-uploads": "v2.0.0-beta2",
+    "wpackagist-plugin/custom-post-type-ui": "1.4.1"
   },
   "extra": {
     "webroot-dir": "public/wp",

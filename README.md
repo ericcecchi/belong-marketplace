@@ -1,6 +1,6 @@
 ## How to setup WordPress on Heroku with the Heroku Buildpack for PHP
 
-This will set up a fresh WordPress install on Heroku with the newly released [Heroku Buildpack for PHP](https://github.com/heroku/heroku-buildpack-php).
+This will set up a fresh WordPress install on Heroku with the [Heroku Buildpack for PHP](https://github.com/heroku/heroku-buildpack-php).
 
 * `nginx` - Nginx for serving web content.
 * `php` - PHP-FPM for process management.
@@ -10,11 +10,17 @@ This will set up a fresh WordPress install on Heroku with the newly released [He
 * `MemCachier` - MemCachier for the memcached backend.
 * `New Relic`- Monitoring
 
+The following plugins will enable you to use Wordpress as a headless (API-based) CMS:
+
+* S3 Uploads - Save all media uploads to a CDN on S3
+* WP REST API v2 - Enable a JSON API
+* Custom Post Type UI - Create custom post types through the WP admin
+
 ## Getting started
 
 Use the Deploy to Heroku button, or use the old fashioned way described below.
 
-<a href="https://heroku.com/deploy?template=https://github.com/ellefsen/wordpress-heroku-php/tree/master">
+<a href="https://heroku.com/deploy?template=https://github.com/ericecchi/headless-wordpress-heroku/tree/master">
   <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy">
 </a>
 
@@ -40,10 +46,12 @@ Before you push to Heroku make sure to add the following add-ons.
 	heroku addons:add newrelic
 
 
-Define your AWS keys for the AWS S3 Media Uploader plugin.
+Define your AWS keys for the S3 Uploads plugin.
 
-	heroku config:set AWS_ACCESS_KEY_ID=123
-	heroku config:set AWS_SECRET_ACCESS_KEY=123
+	heroku config:set S3_UPLOADS_BUCKET="bucket-name"
+    heroku config:set S3_UPLOADS_KEY="abc123"
+    heroku config:set S3_UPLOADS_SECRET="abc123"
+    heroku config:set S3_UPLOADS_REGION="us-standard"
 
 
 Some default configurations. WP_CACHE=true will enable Batcache with the Memcachier addon.
@@ -88,33 +96,6 @@ or install the heroku config plugin from https://github.com/ddollar/heroku-confi
 The second option is to use the provided local-sample-config.php and rename it local-config.php. Update it with your local MySQL credentials, and you're good to go.
 
 > NOTE: If you don't have a command-line mysql accessible and working, Mac/Homebrew users can `brew install mysql` and then follow the directions to have launchd start mysql at login. I believe the default username is root and the default password is blank.
-
-Install PHP 5.5 on Mac OS X with Homebrew if you don't already have it installed.
-
-	brew install --with-fpm php55
-
-Follow the instructions in the output to complete the setup. Most importantly check your .bash_profile or .zshrc and make sure you've set your paths correctly.
-
-	brew install php55-mcrypt
-
-	brew install nginx
-
-Open a new shell and run `php -v` and `php-fpm -v` and make sure they both read PHP 5.5… If you're still on PHP 5.4 then check your paths again. Make sure /usr/local/sbin is before /usr/sbin in your PATH:
-
-> Mountain Lion comes with php-fpm pre-installed, to ensure you are using the brew version you need to make sure /usr/local/sbin is before /usr/sbin in your PATH:
-
-  PATH="/usr/local/sbin:$PATH"
-
-Add this below Heroku Toolbelt setting to swap the PHP you use on the command line.
-
-	export PATH="$(brew --prefix homebrew/php/php55)/bin:$PATH"
-
-
-Now to start your local dev environment run to start WordPress on http://localhost:5000/
-	
-	foreman start
-
-If you don't have foreman installed, you can do so with `gem install foreman` assuming you have Ruby running on your system. If it fails, try adding sudo in front of the command.
 
 
 ## Known Issues

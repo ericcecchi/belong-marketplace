@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7dbee525f1e965b762b504b82eae4e80",
-    "content-hash": "1257b0afd1004f4ea3f95be4f208ceca",
+    "hash": "15d1a8178889078a874ac61932dd33cc",
+    "content-hash": "0fb0c3795468b3cb981414a124b4ade8",
     "packages": [
         {
             "name": "composer/installers",
@@ -224,6 +224,26 @@
             "description": "Access your WordPress site's data through an easy-to-use HTTP REST API.",
             "homepage": "http://wp-api.org/",
             "time": "2016-03-30 00:04:19"
+        },
+        {
+            "name": "wpackagist-plugin/custom-post-type-ui",
+            "version": "1.4.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/custom-post-type-ui/",
+                "reference": "tags/1.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.4.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/custom-post-type-ui/"
         }
     ],
     "packages-dev": [
@@ -233,12 +253,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "cd2d13992b72d049aa270d4b745aae6329e0c037"
+                "reference": "b5c4a0b77a725c4ab9dc1736e5a8217824790093"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/cd2d13992b72d049aa270d4b745aae6329e0c037",
-                "reference": "cd2d13992b72d049aa270d4b745aae6329e0c037",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/b5c4a0b77a725c4ab9dc1736e5a8217824790093",
+                "reference": "b5c4a0b77a725c4ab9dc1736e5a8217824790093",
                 "shasum": ""
             },
             "bin": [
@@ -269,7 +289,7 @@
                 "nginx",
                 "php"
             ],
-            "time": "2016-07-21 11:26:05"
+            "time": "2016-08-26 14:02:29"
         }
     ],
     "aliases": [],
