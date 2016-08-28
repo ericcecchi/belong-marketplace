@@ -4,9 +4,37 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "15d1a8178889078a874ac61932dd33cc",
-    "content-hash": "0fb0c3795468b3cb981414a124b4ade8",
+    "hash": "1d3bcf4424959595bcf862e273d930a7",
+    "content-hash": "4330b914f29e87d2238f273e7296c56d",
     "packages": [
+        {
+            "name": "acf-to-rest-api",
+            "version": "2.2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/airesvsg/acf-to-rest-api/archive/2.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "v1.0.6"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "automattic/batcache",
+            "version": "1.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/Automattic/batcache/archive/master.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-muplugin"
+        },
         {
             "name": "composer/installers",
             "version": "v1.0.6",
@@ -224,6 +252,20 @@
             "description": "Access your WordPress site's data through an easy-to-use HTTP REST API.",
             "homepage": "http://wp-api.org/",
             "time": "2016-03-30 00:04:19"
+        },
+        {
+            "name": "wp-premium/advanced-custom-fields-pro",
+            "version": "5.3.10",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/wp-premium/advanced-custom-fields-pro/archive/5.3.10.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "v1.0.6"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "wpackagist-plugin/custom-post-type-ui",

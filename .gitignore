@@ -6,8 +6,7 @@ debug.log
 public/wp/
 public/content/uploads
 public/content/upgrade
-public/content/plugins/json-rest-api
-public/content/plugins/custom-post-type-ui/
-public/content/plugins/s3-uploads
+public/content/plugins
+public/content/mu-plugins/batcache
 public/content/themes/underscores
 /vendor/

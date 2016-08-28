@@ -33,16 +33,65 @@
           "composer/installers": "v1.0.6"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "acf-to-rest-api",
+        "type": "wordpress-plugin",
+        "version": "2.2.1",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/airesvsg/acf-to-rest-api/archive/2.2.1.zip"
+        },
+        "require" : {
+          "composer/installers": "v1.0.6"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wp-premium/advanced-custom-fields-pro",
+        "version": "5.3.10",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/wp-premium/advanced-custom-fields-pro/archive/5.3.10.zip"
+        },
+        "require": {
+          "composer/installers": "v1.0.6"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package":
+      {
+        "name"       : "automattic/batcache",
+        "type"       : "wordpress-muplugin",
+        "version": "1.2",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/Automattic/batcache/archive/master.zip"
+        },
+        "require"    : {
+          "composer/installers": "~1.0"
+        }
+      }
     }
   ],
   "require": {
     "php": ">=5.5.0",
     "wordpress": "4.6",
+    "automattic/batcache": "1.2",
     "underscores": "1.0.0",
     "fancyguy/webroot-installer": "1.0.0",
     "wp-api/wp-api": "2.0-beta13",
     "humanmade/s3-uploads": "v2.0.0-beta2",
-    "wpackagist-plugin/custom-post-type-ui": "1.4.1"
+    "wpackagist-plugin/custom-post-type-ui": "1.4.1",
+    "acf-to-rest-api": "2.2.1",
+    "wp-premium/advanced-custom-fields-pro": "5.3.10"
   },
   "extra": {
     "webroot-dir": "public/wp",
