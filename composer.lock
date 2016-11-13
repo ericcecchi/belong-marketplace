@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7085bfd56b9960301c5f322dd3e65934",
-    "content-hash": "4330b914f29e87d2238f273e7296c56d",
+    "hash": "39794d320097335e907632d7822c2643",
+    "content-hash": "0faecaf553f91bdd041b29aefe8aee30",
     "packages": [
         {
             "name": "acf-to-rest-api",
@@ -202,10 +202,10 @@
         },
         {
             "name": "wordpress",
-            "version": "4.6",
+            "version": "4.6.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.6.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.6.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -295,12 +295,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "b5c4a0b77a725c4ab9dc1736e5a8217824790093"
+                "reference": "a2222b58a1591c789fc987e797cc824e5a7e125d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/b5c4a0b77a725c4ab9dc1736e5a8217824790093",
-                "reference": "b5c4a0b77a725c4ab9dc1736e5a8217824790093",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/a2222b58a1591c789fc987e797cc824e5a7e125d",
+                "reference": "a2222b58a1591c789fc987e797cc824e5a7e125d",
                 "shasum": ""
             },
             "bin": [
@@ -331,7 +331,7 @@
                 "nginx",
                 "php"
             ],
-            "time": "2016-08-26 14:02:29"
+            "time": "2016-11-10 23:19:38"
         }
     ],
     "aliases": [],

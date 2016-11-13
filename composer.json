@@ -9,10 +9,10 @@
             "package": {
                 "name": "wordpress",
                 "type": "webroot",
-                "version": "4.6",
+                "version": "4.6.1",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/WordPress/WordPress/archive/4.6.zip"
+                    "url": "https://github.com/WordPress/WordPress/archive/4.6.1.zip"
                 },
                 "require": {
                     "fancyguy/webroot-installer": "1.0.0"
@@ -82,7 +82,7 @@
     },
     "require": {
         "php": ">=5.5.0",
-        "wordpress": "4.6",
+        "wordpress": "4.6.1",
         "automattic/batcache": "1.2",
         "underscores": "1.0.0",
         "fancyguy/webroot-installer": "1.0.0",
