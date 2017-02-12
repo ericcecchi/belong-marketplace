@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6a7ddd8a9eff2c56b11aca2965b73d41",
-    "content-hash": "0fc55b8d13b767dc357cdd78ba2bc217",
+    "hash": "12cb5209255b51e1c0bc3e4bacf622af",
+    "content-hash": "d1b1260301bfa8259ed43ec701beec4a",
     "packages": [
         {
             "name": "acf-to-rest-api",
@@ -202,10 +202,10 @@
         },
         {
             "name": "wordpress",
-            "version": "4.6.1",
+            "version": "4.7.2",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.6.1.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.7.2.zip",
                 "reference": null,
                 "shasum": null
             },
