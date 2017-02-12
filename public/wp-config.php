@@ -127,7 +127,7 @@ if ( !empty( getenv('S3_UPLOADS_BUCKET_URL') ) )
 /* That"s all, stop editing! Happy blogging. */
 
 define( "WP_CONTENT_DIR", $_SERVER['DOCUMENT_ROOT'] . "/content" );
-define( "WP_CONTENT_URL", "http://" . $_SERVER['HTTP_HOST'] . "/content" );
+define( "WP_CONTENT_URL", "https://" . $_SERVER['HTTP_HOST'] . "/content" );
 
 /** Absolute path to the WordPress directory. */
 if ( !defined("ABSPATH") )
