@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9cf371f65db68bf149213c6a5981b34b",
-    "content-hash": "417f60ec035613e7f4c220b92104ba8b",
+    "hash": "1500bc9b74586cd296169a067230eeef",
+    "content-hash": "0fcb9dab3a29f5257c2aecba05f84f3d",
     "packages": [
         {
             "name": "acf-to-rest-api",
@@ -288,6 +288,26 @@
             "homepage": "https://wordpress.org/plugins/custom-post-type-ui/"
         },
         {
+            "name": "wpackagist-plugin/tailor",
+            "version": "1.7.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/tailor/",
+                "reference": "tags/1.7.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/tailor.1.7.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/tailor/"
+        },
+        {
             "name": "wpackagist-plugin/wordpress-importer",
             "version": "0.6.3",
             "source": {
@@ -306,6 +326,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-importer/"
+        },
+        {
+            "name": "wpackagist-theme/onepress",
+            "version": "1.3.0",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/onepress/",
+                "reference": "1.3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/onepress.1.3.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/onepress/"
         }
     ],
     "packages-dev": [
