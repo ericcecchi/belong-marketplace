@@ -45,8 +45,8 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 	define("DB_CHARSET", "utf8");
 
 	/** Allows both foobar.com and foobar.herokuapp.com to load media assets correctly. Also adds /wp/ to give WordPress its own directory. */
-	define("WP_SITEURL", "http://" . $_SERVER["HTTP_HOST"] . "/wp/");
-	define("WP_HOME", "http://" . $_SERVER["HTTP_HOST"]);
+	define("WP_SITEURL", "https://" . $_SERVER["HTTP_HOST"] . "/wp/");
+	define("WP_HOME", "https://" . $_SERVER["HTTP_HOST"]);
 
 	define("FORCE_SSL_LOGIN", getenv("FORCE_SSL_LOGIN") == "true");
 	define("FORCE_SSL_ADMIN", getenv("FORCE_SSL_ADMIN") == "true");
