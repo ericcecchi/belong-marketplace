@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "12cb5209255b51e1c0bc3e4bacf622af",
-    "content-hash": "d1b1260301bfa8259ed43ec701beec4a",
+    "hash": "9cf371f65db68bf149213c6a5981b34b",
+    "content-hash": "417f60ec035613e7f4c220b92104ba8b",
     "packages": [
         {
             "name": "acf-to-rest-api",

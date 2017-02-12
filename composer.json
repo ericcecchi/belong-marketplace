@@ -82,6 +82,21 @@
                     "composer/installers": "~1.0"
                 }
             }
+        },
+        "6": {
+            "type": "package",
+            "package": {
+                "name": "onepress",
+                "type": "wordpress-theme",
+                "version": "1.3.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/FameThemes/onepress/archive/v1.3.0.zip"
+                },
+                "require": {
+                    "composer/installers": "v1.0.6"
+                }
+            }
         }
     },
     "require": {
