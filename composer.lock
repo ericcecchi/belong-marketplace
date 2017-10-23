@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b1aaf4ed5bb4a03262ea51453fef4f43",
-    "content-hash": "d0f0ad33e6838389859c43a27b4a35cd",
+    "hash": "559c3efe0fb63c8143a85125b02fa61a",
+    "content-hash": "277fd626125392111465042c36af49f6",
     "packages": [
         {
             "name": "acf-to-rest-api",
@@ -379,7 +379,7 @@
     "packages-dev": [
         {
             "name": "heroku/heroku-buildpack-php",
-            "version": "dev-master",
+            "version": "v125",
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
@@ -424,9 +424,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "heroku/heroku-buildpack-php": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
