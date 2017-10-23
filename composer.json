@@ -82,7 +82,37 @@
                     "composer/installers": "~1.0"
                 }
             }
-        }
+        },
+        "6": {
+          "type": "package",
+          "package": {
+              "name": "deliciousbrains/wp-migrate-db-pro",
+              "type": "wordpress-plugin",
+              "version": "1.4.6",
+              "dist": {
+                  "type": "zip",
+                  "url": "https://deliciousbrains.com/dl/wp-migrate-db-pro-latest.zip?licence_key=abc4c740-951e-40c1-b821-53c9ba270e93&site_url=sproutsocial.com"
+              },
+              "require": {
+                  "composer/installers": "^1.0"
+              }
+          }
+      },
+      "7": {
+          "type": "package",
+          "package": {
+              "name": "deliciousbrains/wp-migrate-db-pro-media-files",
+              "type": "wordpress-plugin",
+              "version": "1.3.1",
+              "dist": {
+                  "type": "zip",
+                  "url": "https://deliciousbrains.com/dl/wp-migrate-db-pro-media-files-latest.zip?licence_key=abc4c740-951e-40c1-b821-53c9ba270e93&site_url=sproutsocial.com"
+              },
+              "require": {
+                  "composer/installers": "^1.0"
+              }
+          }
+      }
     },
     "require": {
         "acf-to-rest-api": "2.2.1",
@@ -97,7 +127,9 @@
         "wpackagist-plugin/tailor": "1.7.8",
         "wpackagist-plugin/wordpress-importer": "0.6.3",
         "wp-premium/advanced-custom-fields-pro": "5.3.10",
-        "wordpress": "4.7.2"
+        "wordpress": "4.7.2",
+        "deliciousbrains/wp-migrate-db-pro": "*",
+        "deliciousbrains/wp-migrate-db-pro-media-files": "*"
     },
     "extra": {
         "webroot-dir": "public/wp",
